@@ -13,5 +13,13 @@ public class Main {
         String secondHalf = secondWord.substring(secondWord.length() / 2);
         String resultWord = firstHalf + secondHalf;
         System.out.println( "Итоговое слово : " + resultWord);
+
+
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.println(" Введите ваше имя ");
+        String name = scanner1.nextLine();
+        System.out.println("Добрый день, " + name + "!");
+        System.out.println("Ваше имя начинается с символа " + name.charAt(0));
+        System.out.println("Ваше имя заканчивается на символ " + name.charAt(name.length() - 1 ));
     }
 }

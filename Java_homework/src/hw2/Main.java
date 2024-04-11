@@ -21,12 +21,7 @@ public class Main {
         System.out.println( number + "->" + (number / 100 ) + "," + (number / 10) % 10  + "," + (number % 10));
 
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(" Введите ваше имя ");
-        String name = scanner.nextLine();
-        System.out.println("Добрый день, " + name + "!");
-        System.out.println("Ваше имя начинается с символа " + name.charAt(0));
-        System.out.println("Ваше имя заканчивается на символ " + name.charAt(name.length() - 1 ));
+
 
     }
 
