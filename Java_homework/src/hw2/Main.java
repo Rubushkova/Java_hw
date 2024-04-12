@@ -14,11 +14,11 @@ public class Main {
         System.out.println( " a % b % c = " + ( a % b % c ));
 
         int number = 345;
-        System.out.println(number);
-        System.out.println( number / 100);
-        System.out.println((number / 10) % 10 );
-        System.out.println(number % 10);
-        System.out.println( number + "->" + (number / 100 ) + "," + (number / 10) % 10  + "," + (number % 10));
+        int fNumber = number / 100;
+        int sNumber = (number / 10) % 10;
+        int tNumber = number % 10;
+        System.out.println(number + " -> " + fNumber + ","+ sNumber + "," + tNumber);
+
 
 
 
